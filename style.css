@@ -1,0 +1,123 @@
+body {
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #e0e8ff;
+  }
+}
+
+.main {
+  width: 25%;
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    width: 85%;
+  }
+}
+
+.main h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.main .description {
+  margin: 0% 9%;
+  font-size: 0.9rem;
+  color: #6b6868;
+}
+
+.main .plan {
+  margin: 7% 9%;
+  padding: 3% 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+}
+
+.main .plan .price {
+  margin-left: 7%;
+  color: #6b6868;
+}
+
+.main .plan .price p {
+  margin: 5% 0%;
+  font-size: 0.9rem;
+}
+
+.main .plan .price .price-plan {
+  color: black;
+  font-weight: 900;
+}
+
+.main .plan a {
+  color: #3829e0;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  margin-left: auto;
+}
+
+.main .plan a:hover {
+  opacity: 0.8;
+}
+
+.main button {
+  font-family: 'Red Hat Display', sans-serif;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.main .payment-btn {
+  padding: 4% 20%;
+  border-radius: 10px;
+  border: #3829e0;
+  background-color: #3829e0;
+  color: white;
+  outline: none;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main .payment-btn:hover {
+  opacity: 0.8;
+}
+
+.main .cancel-btn {
+  margin: 10% 0;
+  border: none;
+  background-color: inherit;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.main .cancel-btn:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
