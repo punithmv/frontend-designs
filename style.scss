@@ -1,0 +1,112 @@
+$mobile:992px;
+
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+
+    @media screen and (max-width:$mobile) {
+        background-color: hsl(225, 100%, 94%);
+    }
+}
+
+.main{
+    width: 25%;
+    background-color: white;
+    height: max-content;
+    box-shadow: 2px 2px 25px  rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    text-align: center;
+    overflow: hidden;
+
+    @media screen and (max-width:$mobile) {
+        width: 85%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .description{
+        margin: 0% 9%;
+        font-size: 0.9rem;
+        color: rgb(107, 104, 104);
+    }
+    
+    .plan{
+        margin: 7% 9%;
+        padding: 3% 6%;
+        display: flex;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 10px;
+        .price{
+            margin-left: 7%;
+            color: rgb(107, 104, 104);
+            
+            p{
+                margin: 5% 0%;
+                font-size: 0.9rem;
+            }
+
+            .price-plan{
+                color: black;
+                font-weight: 900;
+            }
+        }
+
+        a{
+            color: hsl(245, 75%, 52%);
+            font-size: 0.8rem;
+            font-weight: bolder;
+            margin-left: auto;
+        }
+
+        a:hover{
+            opacity: 0.8;
+        }
+    }
+
+    button{
+        font-family: 'Red Hat Display', sans-serif;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+
+    .payment-btn{
+        padding: 4% 20%;
+        border-radius: 10px;
+        border: hsl(245, 75%, 52%);
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        outline: none;
+        font-size: 0.8rem;
+        box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .payment-btn:hover{
+        opacity: 0.8;
+    }
+
+    .cancel-btn{
+        margin: 10% 0;
+        border:none;
+        background-color: inherit;
+        font-size: 0.8rem;
+        opacity: 0.8;
+    }
+
+    .cancel-btn:hover{
+        opacity: 1;
+    }
+}
+
+
