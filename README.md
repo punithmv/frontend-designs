@@ -38,8 +38,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/punithmv/frontend-designs)
-- Live Site URL: [Add website URL here](https://punithmv.github.io/frontend-designs/)
+- Solution URL: [Click here](https://github.com/punithmv/frontend-designs)
+- Live Site URL: [Click here](https://punithmv.github.io/frontend-designs/)
 
 ## My process
 
